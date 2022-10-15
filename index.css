@@ -4,8 +4,8 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     height: 100vh;
-    justify-content:center;
-    
+
+      padding-top: 10%;
 }
 
 .container {
