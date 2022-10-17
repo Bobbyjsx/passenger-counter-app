@@ -1,52 +1,180 @@
-body {
-    background-image: url("yarn.jpeg");
-    background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
-    height: 100vh;
+html{
+    overflow: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #1F2937;
+   
+ 
+   
+}
+#contact{
 
-      padding-top: 10%;
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: inherit;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+   
+}
+h2{
+
+height: 80px;
+left: 52px;
+top: 115px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+/* or 100% */
+
+letter-spacing: -0.025em;
+
+/* white */
+
+color: #FFFFFF;
+
+}
+#rand{
+    color: #4ADF86;
+}
+p{
+    
+
+width: 372px;
+height: 28px;
+left: 52px;
+top: 205px;
+
+/* text-xl/leading-7/font-normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* identical to box height, or 140% */
+
+
+/* Medium grey */
+
+color: #D5D4D8;
+
+}
+.main{
+    width: 500px;
+   
+
+}
+.pass-main{
+    display: flex;
+    flex: unset;
+    flex-direction: row;
+}
+.pass{
+    
+}
+.generate{
+
+   justify-content: center;
+   display: flex;
+   align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    width: 98%;
+    height: 42px;
+
+    
+    background: hsl(160, 84%, 39%);
+
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
 }
 
-.container {
-    background: white;
-    max-width: 80%;
-    margin: auto;
-    border: 3px solid black;
-    border-radius: 10px;
+
+
+.copy{
+    margin:10px;
+    margin-right: 0;
+    align-items: center;
+padding: 9px 17px 9px 15px;
+gap: 12px;
+width: 93%;
+height: 42px;
+background: #10B981;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
 }
 
-h1 {
-    margin-top: 10px;
+.pass:first-of-type > .copy {
+    margin:10px 0px;
+}
+
+input{
+   
+    margin-right: 15px;
+    
+    width: 85%;
+    height: 39px;
     margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 50px;
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-button {
-    border: 1px solid black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+    padding: 10px;
+    background: #273549;
+    border-radius: 6px;
+    color:#e7ebf0;
+    font-size: 20px;
     font-weight: bold;
-    width: 200px;
-    margin-bottom: 5px;
+}
+#insecure{
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(212, 153, 26);
+}
+footer{
+    bottom:0;
+    text-align: center;
+    color: #10B981;
+    padding: 20px;
+}
+
+.git-btn{
+    background-color:#10B981;
+    border: #10B981;
     border-radius: 5px;
-}
-
-#increment-btn {
-    background: #2C2891;
-}
-
-#save-btn {
-    background: #1C7947;
-}
-
-#save-el {
     font-weight: bold;
+    padding: 10px;
+
 }
 
+.hover:hover{
+ color: rgb(156, 99, 24);
+
+}
+
+a{
+    text-decoration: none;
+    vertical-align: top;
+}
+/*  */
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 500px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 300px) {
+    /*Insert your tablet CSS in here!
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 500px) {
+  @media(margin:auto)
+
+    /*Insert your mobile CSS in here!
+}
